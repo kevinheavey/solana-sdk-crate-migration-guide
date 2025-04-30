@@ -90,8 +90,8 @@ This is a big win for compile times and dependency hell, but to take advantage o
 | `solana_program::slot_history` | `solana_slot_history` | Activate the `sysvar` feature for sysvar impl
 | `solana_program::stable_layout` | `solana_stable_layout` | 
 | `solana_program::stake::{config, stake_flags, state, tools, MINIMUM_DELINQUENT_EPOCHS_FOR_DEACTIVATION}` | `solana_stake_interface::{config, stake_flags, state, tools, MINIMUM_DELINQUENT_EPOCHS_FOR_DEACTIVATION}` |
-| `solana_program::stake::instruction` | `solana_stake_interface::{error::StakeError, instruction::*}` |
-| `solana_program::system_instruction` | `solana_system_interface::{error::SystemError, instruction::*, MAX_PERMITTED_ACCOUNTS_DATA_ALLOCATIONS_PER_TRANSACTION, MAX_PERMITTED_DATA_LENGTH}` |
+| `solana_program::stake::instruction` | `solana_stake_interface::{error::StakeError, instruction}` |
+| `solana_program::system_instruction` | `solana_system_interface::{error::SystemError, instruction, MAX_PERMITTED_ACCOUNTS_DATA_ALLOCATIONS_PER_TRANSACTION, MAX_PERMITTED_DATA_LENGTH}` |
 | `solana_program::system_transaction` | `solana_system_transaction` |
 | `solana_program::sysvar` | `solana_sysvar` |
 | `solana_program::{declare_deprecated_sysvar_id, declare_sysvar_id}` | `solana_sysvar_id::{declare_deprecated_sysvar_id, declare_sysvar_id}` |
