@@ -84,7 +84,7 @@ This is a big win for compile times and dependency hell, but to take advantage o
 | `solana_program::hash::{extend_and_hash, hash, hashv, Hasher}` | `solana_sha256_hasher::{extend_and_hash, hash, hashv, Hasher}` |
 | `solana_program::short_vec` | `solana_short_vec` |
 | `solana_sdk::shred_version` | `solana_shred_version` |
-| `solana_sdk::signature` | `solana_signature` |
+| `solana_sdk::signature` | `solana_signature` | `solana_sdk::signature` contained re-exports from the `keypair` module. These are not available in `solana-signature`, only in `solana-keypair`
 | `solana_sdk::signer` | `solana_signer` |
 | `solana_program::slot_hashes` | `solana_slot_hashes` | Activate the `sysvar` feature for sysvar impl
 | `solana_program::slot_history` | `solana_slot_history` | Activate the `sysvar` feature for sysvar impl
